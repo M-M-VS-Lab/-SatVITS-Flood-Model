@@ -7,7 +7,9 @@ More explanations of the development of the model and its use can be read in our
 
 
 ## 2) Requirenments
-The code is adapted to the Google Colab environment and requires an account in GEE (Google Earth Engine) in order to download the necessary data. A video explaining how to open an account in GEE can be found in the following link.
+The code is adapted to the Google Colab environment and requires an account in GEE (Google Earth Engine) in order to download the necessary data. A video explaining how to open an account in GEE can be found in the following link: https://www.youtube.com/watch?v=S0AzoP40cDI&t=8s
+
+GEE website: https://earthengine.google.com/
 
 ## 3) The Code
 
