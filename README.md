@@ -1,9 +1,14 @@
 # SatVITS-Flood-Model
 
 ## 1) Introduction
-The SatVITS-Flood-Model (Satellite Vegetation Index Time Series Flood) is designed to identify past floods since 1980 in hyper arid regions around the world in which less than 100 mm of rain falls per year. The model detects changes in vegetation in the ephemeral rivers and thus identifies the occurrence of a flood and estimates its magnitude – the volume of the water (Mm^3) and its duration (days). Here you will find two codes that operate in the Google Colab environment, the first "Satvits_Floods" is more detailed and organized in a way that is easier to understand while the second code "Satvits_Floods_short" is more concise and allows faster execution of the code and in a simpler way. These codes will allow you to select a point in an ephemeral river as you wish and download a table CSV file with the results of the model as detailed below. 
+The SatVITS-Flood-Model (Satellite Vegetation Index Time Series Flood) is designed to identify past floods since 1980 in hyperarid regions (places with precipitation amounts < 100 mm year-1) around the world. The model detects changes in vegetation in the ephemeral rivers and thus identifies the occurrence of a flood and estimates its magnitude – the volume of the flood (Mm^3) and its duration (days). Here you will find two codes that operate in the Google Colab environment, the first "Satvits_Floods" is more detailed and organized in a way that is easier to understand while the second code "Satvits_Floods_short" is more concise and allows faster execution of the code and in a simpler way. These codes will allow you to select a point in an ephemeral river as you wish and download a table CSV file with the results of the model as detailed below.
 
-More explanations of the development of the model and its use can be read in our article *****.  Article link:
+When using the SatVITS-Flood model, please cite the article tghat describes the model:
+
+Burstein Omer, Grodek T, Enzel Y, Helman David. (2023) SatVITS-Flood: Satellite Vegetation Index Time Series Flood detection model for hyperarid regions. Water Resources Research, 59, e2023WR035164.
+
+A link to the open-access Article:
+https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023WR035164
 
 
 ## 2) Requirenments
