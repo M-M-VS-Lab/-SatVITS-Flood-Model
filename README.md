@@ -5,7 +5,7 @@ The SatVITS-Flood-Model (Satellite Vegetation Index Time Series Flood) is design
 
 When using the SatVITS-Flood model, please cite the article tghat describes the model:
 
-Burstein Omer, Grodek T, Enzel Y, Helman David. (2023) SatVITS-Flood: Satellite Vegetation Index Time Series Flood detection model for hyperarid regions. Water Resources Research, 59, e2023WR035164.
+Burstein Omer, Grodek T, Enzel Y, Helman David. (2023) **SatVITS-Flood: Satellite Vegetation Index Time Series Flood detection model for hyperarid regions.** *Water Resources Research*, 59, e2023WR035164.
 
 A link to the open-access Article:
 https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023WR035164
