@@ -20,45 +20,45 @@ GEE website: https://earthengine.google.com/
 
 ### A) Initializing the GEE account
 
-In order to initialize your GEE account, you need to run this cell of the code. Then click the link that will appear as you can see in fig 1. After following the instructions that appear and generating a token, you will receive a code that you need to put in the box that appears after the inscription: " Enter verification code:" and press enter (fig 1).
+In order to initialize your GEE account, you need to run this cell of the code. Click the link that appears on your screen (Fig 1). After following the instructions and generating a token, you will receive a verification code. Copy and paste the code to the box that reads: " Enter verification code:" and then press Enter (Fig 1).
 
 <img width="602" alt="image" src="https://user-images.githubusercontent.com/95708635/224546720-7338423a-db5d-4abb-8f85-4d86e2ebe7bb.png">
 
-fig 1.
+Fig 1.
 
-### B) Choosing your river
+### B) Choosing the river of interest
 
-In order to activate the model you need to insert a coordinate,  there is 2 options how to do it. 
-option 1: write your coordinates in the code where is writen "option 1"(fig 2)
+To run SatVITS-Flood, you need to insert the coordinates of the pixel that represents the river of interest. There are two options for that: 
+**option 1:** If you know the coordinates, insert them directly where it says "option 1" (Fig 2)
 
 <img width="310" alt="image" src="https://user-images.githubusercontent.com/95708635/224547312-95df9614-9ed3-4448-ba14-92e5a5d77ac2.png">
 
-fig 2.
+Fig 2.
 
-Option 2: Using the map.
-First you can show only the precipitation layer in order to see the hyper-arid regions in yellow (fig 3.A). Than, you can see the STD (Standart Deviation) layer in order to see the rivers and choose pixel with high changes in vegetation - green pixels (fig 3.B). Than you can use the tool "draw a marker" in order to choose your coordinate (fig 3.B).
+**Option 2:** Using the map.
+If you are not sure of the coordinates, you can first display the precipitation layer to see the hyper-arid regions (yellow regions in Fig 3.A). The NDVI STD (Standart Deviation) around your river can be also displayed. This NDVI STD layer can help you select the pixel of interest (near the river). Notice that greener pixels mean high changes in vegetation, which might be an indication of flood effect (Fig 3.B; see further explanation in Burstein et al., 2023 article: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023WR035164). Once you decided which is the pixel that represents your river, use the "draw a marker" option to get its coordinates (Fig 3.B).
 
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/95708635/224548590-6c263755-56e9-4fa2-be01-964c8f2d3ce4.png">
 
-fig 3
+Fig 3
 
-In both options you can insert your river_name in order to save the final CSV file on its name, and you can also change the month of the start of the hydrological year of your choosen river (fig 2). 
+In both options, you can add your river_name to save the name on your output CSV file. You can also change the month of the start of the hydrological year (Fig 2). 
 
-After inserting the coordinates of your ephemeral river in a hyper-arid region, you can just run the code and get the results of the model.
+After inserting the coordinates of the hyper-arid river, run the code and get the flood detection year, as well as the flood magnitude (volume and duration), from SatVITS-Flood.
 
 ## 4) Output
 
-The model will download to your computer a CSV file with the years when floods was detected and their magnitude (fig 4). Years that was detected but without values of volume and duration, means that the model cant evaluate their specific magnitude but can detect a flood.
+The app will automaticaly download a CSV file to your computer. This CSV file will contain information about the year of the flood, its volume and duration (Fig 4). When SatVITS-Flood is unable to estimate the flood's volume or duration, the year of the flood will be the only data displayed.
 
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/95708635/224549415-cedc8abb-1436-4bc7-8b9d-96b3dd2cb246.png">
 
-fig 4
+Fig 4
 
 ## 5) Supplements
 
-We add our raw codes that help us to develop the model. You can also use those codes in order to download data that eventually we didnt used in our model from the GEE links below, and analyze the data with the other codes in this repository.
+We add our raw code used to develop this app. The user can use these codes directly to run SatVITS-Flood on his own data.
 
-Links to code in GEE to download time series:
+Links to the code in GEE for downloading the VIs time series:
 
 MODIS: https://code.earthengine.google.com/3061df7bf284f085233d9a5172d25292
 
