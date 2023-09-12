@@ -1,9 +1,9 @@
 # SatVITS-Flood Model
 
 ## 1) Introduction
-The SatVITS-Flood (Satellite Vegetation Index Time Series Flood) model is designed to identify past floods since 1980 in hyperarid regions (places with precipitation amounts < 100 mm year<sup>-1</sup>). The model detects changes in vegetation in the ephemeral rivers and thus identifies the occurrence of a flood and estimates its magnitude – the volume of the flood (M m<sup>3</sup>) and its duration (days). Here you will find two codes that operate in the Google Colab environment, the first "Satvits_Floods" is more detailed and organized in a way that is easier to understand while the second code "Satvits_Floods_short" is more concise and allows faster execution of the code and in a simpler way. These codes will allow you to select a point in an ephemeral river as you wish and download a table CSV file with the results of the model as detailed below.
+The SatVITS-Flood (Satellite Vegetation Index Time Series Flood) model is designed to identify past floods since 1980 in hyperarid regions (places with precipitation amounts < 100 mm year<sup>-1</sup>). SatVITS-Flood detects changes in vegetation in the ephemeral rivers and thus identifies the occurrence of a flood and estimates its magnitude – the volume of the flood (M m<sup>3</sup>) and its duration (days) - according to such a change. We provide two separate codes operating in the Google Colab environment, the first code ("Satvits_Floods") is more detailed and organized in a way that is easier to read. The second code ("Satvits_Floods_short") is a shorter version, allowing a faster execution. The codes enable selecting a point (pixel) around the area of an ephemeral river of interest, running SatVITS-Flood for this river. The outcome is a CSV file downloaded to the user's computer with the results (as detailed below).
 
-When using the SatVITS-Flood model, please cite the article tghat describes the model:
+When using the SatVITS-Flood model, please cite our article describing the model development:
 
 Burstein Omer, Grodek T, Enzel Y, Helman David. (2023) **SatVITS-Flood: Satellite Vegetation Index Time Series Flood detection model for hyperarid regions.** *Water Resources Research*, 59, e2023WR035164.
 
